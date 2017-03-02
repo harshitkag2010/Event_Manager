@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:title="Add Post"
+        android:id="@+id/action_add"
+    android:icon="@mipmap/ic_add_circle_outline_white_24dp"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="Log Out"
+        android:id="@+id/action_logout"
+
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Calender"
+        android:id="@+id/action_date"
+        android:icon="@mipmap/ic_perm_contact_calendar_white_24dp"
+
+        app:showAsAction="always"/>
+
+
+
+</menu>
+

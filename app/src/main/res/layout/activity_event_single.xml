@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/colorPrimary">
+
+
+    <EditText
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Event TITLE"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:id="@+id/singleEventTitle" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/add_btn"
+        android:id="@+id/singleEventImage"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <Button
+            android:text="Chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+
+            android:textColor="@android:color/black"
+            android:id="@+id/chatBtn" />
+
+        <Button
+            android:text="Gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+
+            android:textColor="@android:color/black"
+            android:id="@+id/nxtBtn" />
+
+        <Button
+            android:text="RemovePost"
+            android:layout_width="wrap_content"
+            android:background="@color/colorAccent"
+
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:id="@+id/singleRemoveBtn"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+
+            android:text="EVENT END DATE"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:id="@+id/singleEndDate" />
+
+        <EditText
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:background="@android:color/transparent"
+
+            android:text="EVENT START DATE "
+            android:ems="10"
+            android:id="@+id/singleStartDate" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="EVENT TIME"
+            android:background="@android:color/transparent"
+
+            android:ems="10"
+            android:id="@+id/singleEventTime" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
